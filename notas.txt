@@ -1,0 +1,25 @@
+# txt_clip = TextClip(texts, 
+#                     fontsize=32,
+#                     color="white",
+#                     align='center',
+#                     method='caption',
+#                     size=(660, None))
+# txt_clip = CompositeVideoClip( [txt_clip.set_pos('center')],
+#                     size=screensize2)
+# video = video.resize(screensize1)
+    # video = video.rotate(180)
+# video = video.crop(x_center=1920 / 2, y_center=1080 / 4, width=1920, height=1080)
+# def createVideo(video, image, output):
+#     print('CREATE VIDEO')
+#     txt_clip = TextClip(texts, fontsize=70)
+#     txt_clip = txt_clip.set_pos('center').set_duration(5)
+#     video = (VideoFileClip(video, audio=False).subclip(0))
+#     image = ImageClip(image, duration=5)
+#     print(str(video.duration))  
+#     # clip = CompositeVideoClip([image, video, txt_clip])
+#     clip = CompositeVideoClip([image, video, txt_clip], size = screensize)
+#     clip.write_videofile('output.mp4')
+
+
+pip install -r requirements.txt
+
